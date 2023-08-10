@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_banners_service_banners",
+  "info": {
+    "displayName": "service_banner"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "text"
+    },
+    "Background_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

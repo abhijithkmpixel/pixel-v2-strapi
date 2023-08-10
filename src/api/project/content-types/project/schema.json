@@ -4,7 +4,8 @@
   "info": {
     "singularName": "project",
     "pluralName": "projects",
-    "displayName": "Projects"
+    "displayName": "Projects",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,15 @@
   "attributes": {
     "Name": {
       "type": "string"
+    },
+    "Bodycopy": {
+      "type": "richtext"
+    },
+    "Technology_used": {
+      "type": "richtext"
+    },
+    "Services_used": {
+      "type": "richtext"
     }
   }
 }

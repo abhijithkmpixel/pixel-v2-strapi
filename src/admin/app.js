@@ -1,4 +1,9 @@
+import favicon from "./extensions/favicon.png";
+
 const config = {
+  head: {
+    favicon: favicon,
+  },
   locales: [
     // 'ar',
     // 'fr',

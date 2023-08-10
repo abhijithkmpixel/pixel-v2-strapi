@@ -1,10 +1,10 @@
 {
-  "kind": "collectionType",
-  "collectionName": "services",
+  "kind": "singleType",
+  "collectionName": "service_pages",
   "info": {
-    "singularName": "service",
-    "pluralName": "services",
-    "displayName": "Services",
+    "singularName": "service-page",
+    "pluralName": "service-pages",
+    "displayName": "Service_page",
     "description": ""
   },
   "options": {
@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
-      "type": "string"
-    },
     "Banner": {
       "type": "component",
       "repeatable": false,
@@ -23,7 +20,12 @@
     "Service_intro": {
       "type": "component",
       "repeatable": false,
-      "component": "sections.service-section"
+      "component": "cards.card-with-description"
+    },
+    "services": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::service.service"
     }
   }
 }

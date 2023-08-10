@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_coffees",
+  "info": {
+    "displayName": "Coffee"
+  },
+  "options": {},
+  "attributes": {
+    "TItle": {
+      "type": "string"
+    },
+    "Body": {
+      "type": "richtext"
+    }
+  }
+}
