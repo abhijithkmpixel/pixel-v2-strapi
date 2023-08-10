@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_work_togethers",
+  "info": {
+    "displayName": "Work_together"
+  },
+  "options": {},
+  "attributes": {
+    "Main_title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "Short_title": {
+      "type": "string"
+    },
+    "Email_id": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.sinlge-link"
+    },
+    "Phone_number": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.sinlge-link"
+    },
+    "Contact_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.sinlge-link"
+    }
+  }
+}

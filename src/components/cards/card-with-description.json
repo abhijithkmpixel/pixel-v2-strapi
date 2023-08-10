@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_cards_card_with_descriptions",
+  "info": {
+    "displayName": "Card_with_description"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

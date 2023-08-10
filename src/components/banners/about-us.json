@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_banners_about_uses",
+  "info": {
+    "displayName": "About us",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Main_title": {
+      "type": "string"
+    },
+    "Sub_title": {
+      "type": "string"
+    },
+    "Featured_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Short_title": {
+      "type": "text"
+    },
+    "Redirect_link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.sinlge-link"
+    },
+    "Achievements_widget": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.awards-card",
+      "max": 3
+    }
+  }
+}

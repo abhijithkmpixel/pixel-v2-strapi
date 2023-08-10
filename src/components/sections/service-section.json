@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sections_service_sections",
+  "info": {
+    "displayName": "Service_section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title_1": {
+      "type": "string"
+    },
+    "Title_2": {
+      "type": "string"
+    },
+    "Title_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    },
+    "Technology_title": {
+      "type": "string"
+    },
+    "Technology_images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "static-elements.image"
+    }
+  }
+}

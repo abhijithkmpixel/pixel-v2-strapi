@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_cta_media_links",
+  "info": {
+    "displayName": "Media_links"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "Url": {
+      "type": "string"
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

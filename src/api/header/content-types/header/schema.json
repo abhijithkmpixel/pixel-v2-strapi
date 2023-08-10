@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "headers",
+  "info": {
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "Header",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Logo_dark": {
+      "type": "component",
+      "repeatable": false,
+      "component": "static-elements.image"
+    },
+    "Logo_white": {
+      "type": "component",
+      "repeatable": false,
+      "component": "static-elements.image"
+    },
+    "Social_media_links": {
+      "displayName": "Media_links",
+      "type": "component",
+      "repeatable": true,
+      "component": "cta.media-links"
+    },
+    "Header_menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cta.navigation-links"
+    },
+    "Header_menu_bg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

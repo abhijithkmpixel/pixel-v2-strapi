@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_banners_home_banners",
+  "info": {
+    "displayName": "Home banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Line_1": {
+      "type": "string"
+    },
+    "Writing_words": {
+      "type": "string"
+    },
+    "Line_2": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    },
+    "Ai_technology_title": {
+      "type": "string"
+    },
+    "Ai_technology_subtitle": {
+      "type": "string"
+    },
+    "Ai_technology_short_description": {
+      "type": "text"
+    },
+    "Ai_technology_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

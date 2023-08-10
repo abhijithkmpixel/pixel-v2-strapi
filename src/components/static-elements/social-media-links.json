@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_static_elements_social_media_links",
+  "info": {
+    "displayName": "Social_media_links"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cta.media-links"
+    }
+  }
+}

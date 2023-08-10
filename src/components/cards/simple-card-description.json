@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_cards_simple_card_descriptions",
+  "info": {
+    "displayName": "Simple_card_description"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Bodycopy": {
+      "type": "text"
+    }
+  }
+}

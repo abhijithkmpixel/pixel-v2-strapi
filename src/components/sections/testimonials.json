@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_testimonials",
+  "info": {
+    "displayName": "Testimonials"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "text"
+    },
+    "Testimonials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::testimonial.testimonial"
+    },
+    "Logo_slider1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "static-elements.image"
+    },
+    "Logo_slider2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "static-elements.image"
+    }
+  }
+}

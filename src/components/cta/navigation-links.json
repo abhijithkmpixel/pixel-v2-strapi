@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_cta_navigation_links",
+  "info": {
+    "displayName": "Navigation_links"
+  },
+  "options": {},
+  "attributes": {
+    "Link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.sinlge-link"
+    },
+    "Sub_menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cta.sinlge-link"
+    }
+  }
+}

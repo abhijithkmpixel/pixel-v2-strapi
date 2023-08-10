@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_cards_awards_cards",
+  "info": {
+    "displayName": "Awards_card"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Main_title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Bodycopy": {
+      "type": "text"
+    }
+  }
+}

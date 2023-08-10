@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_branches",
+  "info": {
+    "displayName": "Branches"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Body": {
+      "type": "richtext"
+    },
+    "Background_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

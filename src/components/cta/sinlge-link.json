@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_cta_sinlge_links",
+  "info": {
+    "displayName": "Sinlge_link"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "Url": {
+      "type": "string"
+    }
+  }
+}

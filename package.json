@@ -9,17 +9,18 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.12.4",
-    "@strapi/plugin-users-permissions": "4.12.4",
     "@strapi/plugin-i18n": "4.12.4",
+    "@strapi/plugin-users-permissions": "4.12.4",
+    "@strapi/provider-upload-cloudinary": "^4.12.4",
+    "@strapi/strapi": "4.12.4",
     "better-sqlite3": "8.5.0",
-    "pg": "^8.10.0",
-    "pg-connection-string": "^2.5.0"
+    "pg": "^8.11.2",
+    "pg-connection-string": "^2.6.2",
+    "strapi-html-editor": "^1.0.2"
   },
   "author": {
-    "name": "pixelflames technologies"
+    "name": "Pixelflames technologies"
   },
   "strapi": {
     "uuid": "162eba3a-10b9-4472-b094-0a036025c591"
