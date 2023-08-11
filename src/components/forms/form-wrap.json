@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_forms_form_wraps",
+  "info": {
+    "displayName": "Form_wrap"
+  },
+  "options": {},
+  "attributes": {
+    "Name_placeholder": {
+      "type": "string"
+    },
+    "Email_placeholder": {
+      "type": "string"
+    },
+    "Message_placeholder": {
+      "type": "string"
+    },
+    "Budget_placeholder": {
+      "type": "string"
+    },
+    "SIde_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SIde_image_description": {
+      "type": "text"
+    }
+  }
+}

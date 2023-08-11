@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_forms_contact_forms",
+  "info": {
+    "displayName": "Contact_form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Main_title": {
+      "type": "string"
+    },
+    "Sub_title": {
+      "type": "text"
+    },
+    "Form_categories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "forms.label"
+    },
+    "Form": {
+      "displayName": "Form_wrap",
+      "type": "component",
+      "repeatable": false,
+      "component": "forms.form-wrap"
+    }
+  }
+}

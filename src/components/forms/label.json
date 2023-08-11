@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_forms_labels",
+  "info": {
+    "displayName": "Label"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    }
+  }
+}

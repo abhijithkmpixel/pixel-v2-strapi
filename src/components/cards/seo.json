@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cards_seos",
+  "info": {
+    "displayName": "Seo"
+  },
+  "options": {},
+  "attributes": {
+    "Seo_title": {
+      "type": "string"
+    },
+    "Seo_description": {
+      "type": "text"
+    },
+    "Seo_keywords": {
+      "type": "text"
+    }
+  }
+}

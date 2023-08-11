@@ -36,6 +36,11 @@
       "type": "component",
       "repeatable": false,
       "component": "sections.work-together"
+    },
+    "Seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.seo"
     }
   }
 }

@@ -42,6 +42,11 @@
       "type": "component",
       "repeatable": false,
       "component": "sections.coffee"
+    },
+    "Seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.seo"
     }
   }
 }

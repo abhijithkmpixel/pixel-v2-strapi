@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "service_pages",
+  "collectionName": "contact_pages",
   "info": {
-    "singularName": "service-page",
-    "pluralName": "service-pages",
-    "displayName": "Service_page",
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "Contact_page",
     "description": ""
   },
   "options": {
@@ -17,15 +17,18 @@
       "repeatable": false,
       "component": "banners.service-banner"
     },
-    "Service_intro": {
+    "Form": {
       "type": "component",
       "repeatable": false,
+      "component": "forms.contact-form"
+    },
+    "Locations": {
+      "type": "component",
+      "repeatable": true,
       "component": "cards.card-with-description"
     },
-    "services": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::service.service"
+    "Business_enquiries": {
+      "type": "richtext"
     },
     "Seo": {
       "type": "component",
