@@ -28,6 +28,22 @@
       "type": "component",
       "repeatable": false,
       "component": "cards.seo"
+    },
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Live_url": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.sinlge-link"
+    },
+    "Year": {
+      "type": "string"
     }
   }
 }
