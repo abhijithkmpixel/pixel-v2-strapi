@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_unique_services",
+  "info": {
+    "displayName": "Unique_service"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    }
+  }
+}

@@ -24,13 +24,18 @@
     },
     "services": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::service.service"
     },
     "Seo": {
       "type": "component",
       "repeatable": false,
       "component": "cards.seo"
+    },
+    "Unique_service": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.unique-service"
     }
   }
 }
