@@ -30,7 +30,7 @@
     },
     "Technology_images": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "static-elements.image"
     }
   }

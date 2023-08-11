@@ -1,16 +1,18 @@
 {
   "collectionName": "components_static_elements_images",
   "info": {
-    "displayName": "Image"
+    "displayName": "Image",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

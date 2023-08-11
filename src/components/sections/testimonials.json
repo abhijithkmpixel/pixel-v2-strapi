@@ -1,7 +1,8 @@
 {
   "collectionName": "components_sections_testimonials",
   "info": {
-    "displayName": "Testimonials"
+    "displayName": "Testimonials",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,12 +16,12 @@
     },
     "Logo_slider1": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "static-elements.image"
     },
     "Logo_slider2": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "static-elements.image"
     }
   }
