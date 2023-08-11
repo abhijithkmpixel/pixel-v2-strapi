@@ -19,11 +19,6 @@
       "allowedTypes": [
         "images"
       ]
-    },
-    "Location_link": {
-      "type": "component",
-      "repeatable": false,
-      "component": "cta.sinlge-link"
     }
   }
 }

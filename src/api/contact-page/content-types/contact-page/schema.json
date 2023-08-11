@@ -22,11 +22,6 @@
       "repeatable": false,
       "component": "forms.contact-form"
     },
-    "Locations": {
-      "type": "component",
-      "repeatable": true,
-      "component": "cards.card-with-description"
-    },
     "Business_enquiries": {
       "type": "richtext"
     },
@@ -34,6 +29,11 @@
       "type": "component",
       "repeatable": false,
       "component": "cards.seo"
+    },
+    "Locations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.location-cards"
     }
   }
 }

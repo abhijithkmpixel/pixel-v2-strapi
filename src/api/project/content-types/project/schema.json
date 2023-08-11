@@ -44,6 +44,11 @@
     },
     "Year": {
       "type": "string"
+    },
+    "portfolio_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::portfolio-category.portfolio-category"
     }
   }
 }

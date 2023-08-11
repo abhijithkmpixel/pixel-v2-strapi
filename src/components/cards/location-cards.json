@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_cards_location_cards",
+  "info": {
+    "displayName": "Location_cards"
+  },
+  "options": {},
+  "attributes": {
+    "Location_details": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.card-with-description"
+    },
+    "Location_link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.sinlge-link"
+    }
+  }
+}
