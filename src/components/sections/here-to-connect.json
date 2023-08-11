@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_here_to_connects",
+  "info": {
+    "displayName": "Here_to_connect"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.awards-card"
+    },
+    "Technology_icons": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

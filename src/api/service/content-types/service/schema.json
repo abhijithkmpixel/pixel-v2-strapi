@@ -20,10 +20,28 @@
       "repeatable": false,
       "component": "banners.service-banner"
     },
-    "Service_intro": {
+    "Service_introduction": {
       "type": "component",
       "repeatable": false,
-      "component": "sections.service-section"
+      "component": "cards.card-with-description"
+    },
+    "Development_trends_title": {
+      "type": "string"
+    },
+    "Trends_row": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.card-with-description"
+    },
+    "Here_to_connect": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.here-to-connect"
+    },
+    "Grab_a_coffee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.coffee"
     }
   }
 }
