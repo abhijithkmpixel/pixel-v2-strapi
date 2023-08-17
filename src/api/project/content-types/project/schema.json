@@ -49,6 +49,17 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::portfolio-category.portfolio-category"
+    },
+    "Homepage_banner_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Name"
     }
   }
 }

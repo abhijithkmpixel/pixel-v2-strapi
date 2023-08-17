@@ -47,6 +47,13 @@
       "type": "component",
       "repeatable": false,
       "component": "cards.seo"
+    },
+    "Homepage_listing_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
