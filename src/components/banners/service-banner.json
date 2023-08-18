@@ -1,7 +1,8 @@
 {
   "collectionName": "components_banners_service_banners",
   "info": {
-    "displayName": "service_banner"
+    "displayName": "service_banner",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,11 +10,12 @@
       "type": "text"
     },
     "Background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }
