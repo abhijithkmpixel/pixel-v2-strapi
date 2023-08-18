@@ -1,7 +1,8 @@
 {
   "collectionName": "components_sections_ai_sections",
   "info": {
-    "displayName": "Ai_section"
+    "displayName": "Ai_section",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -24,6 +25,13 @@
       "type": "component",
       "repeatable": false,
       "component": "cta.sinlge-link"
+    },
+    "SIde_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
