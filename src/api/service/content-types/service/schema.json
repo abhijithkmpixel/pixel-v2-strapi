@@ -59,6 +59,12 @@
     "Slug": {
       "type": "uid",
       "targetField": "Name"
+    },
+    "Listing_description": {
+      "type": "text"
+    },
+    "Listing_categories": {
+      "type": "text"
     }
   }
 }
