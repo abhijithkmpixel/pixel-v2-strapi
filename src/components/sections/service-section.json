@@ -12,14 +12,6 @@
     "Title_2": {
       "type": "string"
     },
-    "Title_icon": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "services": {
       "type": "relation",
       "relation": "oneToMany",

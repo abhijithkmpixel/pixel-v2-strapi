@@ -27,18 +27,20 @@
       "component": "cta.sinlge-link"
     },
     "Footer_contact_bg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "Footer_contact_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "Redirect_link": {
       "type": "string"
@@ -53,6 +55,12 @@
     },
     "Footer_text": {
       "type": "string"
+    },
+    "Addresses": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.address-card",
+      "max": 2
     }
   }
 }

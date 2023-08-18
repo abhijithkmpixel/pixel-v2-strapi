@@ -22,11 +22,6 @@
       "relation": "oneToMany",
       "target": "api::project.project"
     },
-    "Get_in_touch": {
-      "type": "component",
-      "repeatable": false,
-      "component": "sections.coffee"
-    },
     "Seo": {
       "type": "component",
       "repeatable": false,

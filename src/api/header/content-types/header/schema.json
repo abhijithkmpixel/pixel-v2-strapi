@@ -34,11 +34,15 @@
       "component": "cta.navigation-links"
     },
     "Header_menu_bg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "Whatsapp_number": {
+      "type": "string"
     }
   }
 }

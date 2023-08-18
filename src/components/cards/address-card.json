@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_cards_address_cards",
+  "info": {
+    "displayName": "Address_card"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "text"
+    }
+  }
+}
