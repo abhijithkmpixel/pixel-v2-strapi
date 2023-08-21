@@ -51,15 +51,23 @@
       "target": "api::portfolio-category.portfolio-category"
     },
     "Homepage_banner_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Name"
+    },
+    "Portfolio_page_listing_image": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
       "multiple": false
-    },
-    "Slug": {
-      "type": "uid",
-      "targetField": "Name"
     }
   }
 }
