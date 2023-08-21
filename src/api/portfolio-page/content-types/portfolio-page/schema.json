@@ -26,6 +26,11 @@
       "type": "component",
       "repeatable": false,
       "component": "cards.seo"
+    },
+    "Grab_a_coffee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.coffee"
     }
   }
 }
