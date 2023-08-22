@@ -36,6 +36,9 @@
       "type": "component",
       "repeatable": false,
       "component": "sections.unique-service"
+    },
+    "Service_hover_button_text": {
+      "type": "string"
     }
   }
 }
