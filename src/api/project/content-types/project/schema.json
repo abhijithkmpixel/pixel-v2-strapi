@@ -63,6 +63,14 @@
       "targetField": "Name"
     },
     "Portfolio_page_listing_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Mobile_banner_image": {
       "allowedTypes": [
         "images"
       ],
