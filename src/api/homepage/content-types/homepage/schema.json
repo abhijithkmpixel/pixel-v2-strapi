@@ -37,11 +37,6 @@
       "repeatable": false,
       "component": "sections.work-together"
     },
-    "Seo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "cards.seo"
-    },
     "Service": {
       "type": "component",
       "repeatable": false,
@@ -51,6 +46,11 @@
       "type": "component",
       "repeatable": false,
       "component": "sections.ai-section"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.seo"
     }
   }
 }

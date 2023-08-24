@@ -1,18 +1,28 @@
 {
   "collectionName": "components_cards_seos",
   "info": {
-    "displayName": "Seo"
+    "displayName": "Seo",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Seo_title": {
-      "type": "string"
+    "metaTitle": {
+      "type": "string",
+      "required": true
     },
-    "Seo_description": {
+    "metaDescription": {
+      "type": "text",
+      "required": true
+    },
+    "keywords": {
       "type": "text"
     },
-    "Seo_keywords": {
-      "type": "text"
+    "metaImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

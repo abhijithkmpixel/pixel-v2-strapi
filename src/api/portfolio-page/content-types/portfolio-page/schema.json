@@ -22,15 +22,15 @@
       "relation": "oneToMany",
       "target": "api::project.project"
     },
-    "Seo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "cards.seo"
-    },
     "Grab_a_coffee": {
       "type": "component",
       "repeatable": false,
       "component": "sections.coffee"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.seo"
     }
   }
 }

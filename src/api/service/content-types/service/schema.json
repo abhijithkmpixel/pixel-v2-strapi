@@ -43,11 +43,6 @@
       "repeatable": false,
       "component": "sections.coffee"
     },
-    "Seo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "cards.seo"
-    },
     "Homepage_listing_image": {
       "type": "media",
       "multiple": false,
@@ -65,6 +60,11 @@
     },
     "Listing_categories": {
       "type": "text"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.seo"
     }
   }
 }

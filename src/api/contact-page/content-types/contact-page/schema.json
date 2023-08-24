@@ -25,15 +25,15 @@
     "Business_enquiries": {
       "type": "richtext"
     },
-    "Seo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "cards.seo"
-    },
     "Locations": {
       "type": "component",
       "repeatable": true,
       "component": "cards.location-cards"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.seo"
     }
   }
 }

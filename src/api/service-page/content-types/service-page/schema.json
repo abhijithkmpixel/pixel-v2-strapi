@@ -27,11 +27,6 @@
       "relation": "oneToMany",
       "target": "api::service.service"
     },
-    "Seo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "cards.seo"
-    },
     "Unique_service": {
       "type": "component",
       "repeatable": false,
@@ -39,6 +34,11 @@
     },
     "Service_hover_button_text": {
       "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.seo"
     }
   }
 }

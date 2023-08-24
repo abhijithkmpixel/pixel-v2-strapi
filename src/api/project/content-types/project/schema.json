@@ -24,11 +24,6 @@
     "Services_used": {
       "type": "richtext"
     },
-    "Seo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "cards.seo"
-    },
     "Images": {
       "type": "media",
       "multiple": true,
@@ -71,11 +66,22 @@
       ]
     },
     "Mobile_banner_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "Seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.seo"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.seo"
     }
   }
 }
