@@ -73,11 +73,6 @@
         "images"
       ]
     },
-    "Seo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "cards.seo"
-    },
     "seo": {
       "type": "component",
       "repeatable": false,
