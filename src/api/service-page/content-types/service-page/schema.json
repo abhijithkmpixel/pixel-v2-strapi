@@ -38,7 +38,7 @@
     "seo": {
       "type": "component",
       "repeatable": false,
-      "component": "cards.seo"
+      "component": "shared.seo"
     }
   }
 }
