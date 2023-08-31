@@ -32,6 +32,12 @@ const config = {
     // 'zh-Hans',
     // 'zh',
   ],
+  translations: {
+    en: {
+      "app.components.LeftMenu.navbrand.title": "Pixelflames Dashboard",
+      // "app.components.LeftMenu.navbrand.title": process.env.DASHBOARD_WORKPLACE,
+    },
+  },
 };
 
 const bootstrap = (app) => {

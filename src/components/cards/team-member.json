@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_cards_team_members",
+  "info": {
+    "displayName": "Team_member"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Designation": {
+      "type": "string"
+    },
+    "Preview_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Hover_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

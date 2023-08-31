@@ -19,6 +19,43 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
+    },
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banners.service-banner"
+    },
+    "About_intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.card-with-description"
+    },
+    "Intro_description": {
+      "type": "richtext"
+    },
+    "How_we_work_title": {
+      "type": "string"
+    },
+    "How_we_work_cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.card-with-description"
+    },
+    "Teams_title": {
+      "type": "string"
+    },
+    "Teams_subtitle": {
+      "type": "text"
+    },
+    "Team_members": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.team-member"
+    },
+    "Grab_a_coffee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.coffee"
     }
   }
 }
