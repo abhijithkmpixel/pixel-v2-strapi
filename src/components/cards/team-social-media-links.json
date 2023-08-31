@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cards_team_social_media_links",
+  "info": {
+    "displayName": "Team_social_media_links"
+  },
+  "options": {},
+  "attributes": {
+    "Instagram_link": {
+      "type": "string"
+    },
+    "Linkedin_link": {
+      "type": "string"
+    },
+    "Twitter_link": {
+      "type": "string"
+    }
+  }
+}
