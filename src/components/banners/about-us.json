@@ -35,7 +35,7 @@
       "type": "component",
       "repeatable": true,
       "component": "cards.awards-card",
-      "max": 3
+      "max": 4
     }
   }
 }
