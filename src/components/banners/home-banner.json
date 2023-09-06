@@ -30,11 +30,17 @@
       "type": "text"
     },
     "Ai_technology_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "Banner_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.sinlge-link"
     }
   }
 }
