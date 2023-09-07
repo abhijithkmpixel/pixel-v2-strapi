@@ -61,6 +61,9 @@
       "type": "component",
       "repeatable": false,
       "component": "sections.testimonials"
+    },
+    "Show_team_members": {
+      "type": "boolean"
     }
   }
 }
