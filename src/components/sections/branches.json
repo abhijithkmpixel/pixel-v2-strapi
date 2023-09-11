@@ -24,9 +24,9 @@
       ]
     },
     "Products": {
-      "type": "component",
-      "repeatable": true,
-      "component": "cards.product-card"
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
     }
   }
 }

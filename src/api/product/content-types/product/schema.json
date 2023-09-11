@@ -36,11 +36,22 @@
       "component": "shared.seo"
     },
     "Images_slider": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Homepage_listing_image": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
-      "multiple": true
+      "multiple": false
+    },
+    "Short_description": {
+      "type": "text"
     }
   }
 }
