@@ -12,9 +12,6 @@
     "Subtitle": {
       "type": "string"
     },
-    "Body": {
-      "type": "richtext"
-    },
     "Background_image": {
       "type": "media",
       "multiple": false,
