@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_cards_product_cards",
+  "info": {
+    "displayName": "Product_card"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}
