@@ -68,6 +68,9 @@
     },
     "Body_description": {
       "type": "richtext"
+    },
+    "Body_description2": {
+      "type": "richtext"
     }
   }
 }
